@@ -1,0 +1,68 @@
+
+/*верхняя строка*/
+
+*{
+    margin: 0;
+    padding: 0;
+  }
+  body{
+    background:rgb(12, 233, 12);
+    color:rgb(253, 253, 253);
+    background: url(https://avatars.mds.yandex.net/get-altay/3986639/2a00000177ba6c697fc0efc48328a5894933/XXXL) no-repeat center center fixed;
+    background-size: cover;
+  }
+  
+  header{
+    display: flex;
+    justify-content: center;
+    position: sticky;
+    z-index: 3;
+    top: 0;
+    background-color: grey;
+  }
+  .Logo, .Menu{
+    display:inline-block;
+    vertical-align: middle;
+    margin-right: 150px;
+  }
+  .Menu li{
+    margin-right: 50px;
+    display: inline-block;
+    vertical-align: middle;
+  }
+  
+  .Menu a{
+    font-family: Arial;
+    font-size: 30px;
+    color: white;
+    text-decoration: none;
+    vertical-align: middle;
+  }
+  
+  .Logo h1{
+     font-family: arial;
+     font-size: 30px;
+     color: white;
+     vertical-align: middle;
+  }
+  
+  /*рамка для прайс листа*/
+  
+  .price_list__block {
+    background-color: #fff;
+    border-radius: 25px;
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    grid-auto-rows: minmax(30px,auto);
+    padding: 0px 12px;
+    max-width: 900px;
+    margin: 0 auto;
+    color: black;
+    font-size: 150%;
+  }
+
+
+  .service__title__active {
+    color: #fff;
+    background-color: #0b51a4;
+}
